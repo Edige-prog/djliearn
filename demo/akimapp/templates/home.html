@@ -1,0 +1,6 @@
+{% extends "base.html" %} {% block title %} Home Page {% endblock %}
+{% block content %}
+<p> this is the home page</p>
+</br>
+<a href = {% url 'akimapp:todos' %}> Go to ToDo List</a>
+{% endblock %}
